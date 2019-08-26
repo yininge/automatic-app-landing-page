@@ -36,6 +36,33 @@
 		"f f f f f f f f f f f f";
 }
 
+.pageContainer {				// Set up the container for the page content
+	margin: auto;
+	max-width: $content-width;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+  
+.pageBody {
+	background-color: $page-container-background-color;
+	border-radius: 20px;
+	border: $page-container-border-color solid 1px;
+	max-width: $content-width;
+	padding: 50px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+    min-height: 500px;
+}
+  
+.pageTitle > h3 {
+	color: $page-title-color;
+}
+  
+.pageBody > p {
+	margin: 20px 0px 20px 0px;
+	color: $page-text-color;
+}
+
 @media only screen and (max-width: 1070px) {
 
 	.container {					// Set up the container for the site content

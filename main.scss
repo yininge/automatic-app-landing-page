@@ -14,6 +14,11 @@ $app-title-color: {{ site.app_title_color }};
 $app-price-color: {{ site.app_price_color }};
 $app-description-color: {{ site.app_description_color }};
 
+$page-container-background-color: {{ site.page_container_background_color }};
+$page-container-border-color: {{ site.page_container_border_color }};
+$page-title-color: {{ site.page_title_color }};
+$page-text-color: {{ site.page_text_color }};
+
 $feature-title-color: {{ site.feature_title_color }};
 $feature-text-color: {{ site.feature_text_color }};
 $footer-text-color: {{ site.footer_text_color }};

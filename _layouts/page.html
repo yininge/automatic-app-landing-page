@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  {% include head.html %}
+
+  <body>
+    <div class="imageWrapper">
+      <div class="headerBackground">
+        <div class="pageContainer">
+          {% include header.html %}
+          <div class="pageBody">
+            <h3>{{ page.title }}</h3>
+            <p>{{page.content}}</p>
+          </div>
+          {% include footer.html %} 
+          {% include appstoreimages.html %}
+      </div>
+    </div>
+  </body>
+</html>
